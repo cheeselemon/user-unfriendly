@@ -1,2 +1,5 @@
 # user-unfriendly
-A User-unfriendly Interface
+
+A React App that is user-unfriendly
+
+
