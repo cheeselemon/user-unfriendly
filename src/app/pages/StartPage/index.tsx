@@ -1,13 +1,11 @@
-import * as React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { A } from 'app/components/A';
+import { Button } from 'app/components/Button';
 import { NavBar } from 'app/components/NavBar';
 import { PageWrapper } from 'app/components/PageWrapper';
 import { Title } from 'app/components/Title';
-import { Lead } from '../HomePage/components/Lead';
-import { A } from 'app/components/A';
+import { Helmet } from 'react-helmet-async';
 import styled from 'styled-components';
-import { TextButton } from '../HomePage/Features/GithubRepoForm/components/TextButton';
-import { Button } from 'app/components/Button';
+import { Lead } from '../HomePage/components/Lead';
 
 export function StartPage() {
   return (

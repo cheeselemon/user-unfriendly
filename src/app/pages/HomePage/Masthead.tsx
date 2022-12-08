@@ -1,9 +1,7 @@
-import * as React from 'react';
+import { A } from 'app/components/A';
 import styled from 'styled-components/macro';
-import { Logos } from './Logos';
 import { Title } from '../../components/Title';
 import { Lead } from './components/Lead';
-import { A } from 'app/components/A';
 
 export function Masthead() {
   return (
