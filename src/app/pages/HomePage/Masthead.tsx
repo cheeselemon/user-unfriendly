@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
 import { Logos } from './Logos';
-import { Title } from './components/Title';
+import { Title } from '../../components/Title';
 import { Lead } from './components/Lead';
 import { A } from 'app/components/A';
 
@@ -11,7 +11,7 @@ export function Masthead() {
       <Title>Please wait...</Title>
       <Lead>
         If page doesn't load click {' '}<A
-          href="/features"
+          href="/start"
           rel="noopener noreferrer"
         >
         here

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import { Title } from '../components/Title';
+import { Title } from '../../../components/Title';
 import { Lead } from '../components/Lead';
 import { SubTitle } from '../components/SubTitle';
 import { P } from '../components/P';
