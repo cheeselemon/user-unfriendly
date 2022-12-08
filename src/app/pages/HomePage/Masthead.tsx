@@ -8,26 +8,14 @@ import { A } from 'app/components/A';
 export function Masthead() {
   return (
     <Wrapper>
-      <Logos />
-      <Title>React Boilerplate meets CRA</Title>
+      <Title>Please wait...</Title>
       <Lead>
-        Now you can use the{' '}
-        <A
-          href="https://www.reactboilerplate.com/"
-          target="_blank"
+        If page doesn't load click {' '}<A
+          href="/features"
           rel="noopener noreferrer"
         >
-          React Boilerplate
-        </A>{' '}
-        as a{' '}
-        <A
-          href="https://github.com/facebook/create-react-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Create React App
-        </A>{' '}
-        template.
+        here
+        </A>{' '} to go to the next page. {' '}
       </Lead>
     </Wrapper>
   );

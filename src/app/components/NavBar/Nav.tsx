@@ -13,10 +13,10 @@ export function Nav() {
         rel="noopener noreferrer"
       >
         <DocumentationIcon />
-        Documentation
+        Search
       </Item>
       <Item
-        href="https://github.com/react-boilerplate/react-boilerplate-cra-template"
+        href="https://github.com/cheeselemon/user-unfriendly"
         target="_blank"
         title="Github Page"
         rel="noopener noreferrer"

@@ -18,7 +18,6 @@ export function HomePage() {
       <NavBar />
       <PageWrapper>
         <Masthead />
-        <Features />
       </PageWrapper>
     </>
   );
